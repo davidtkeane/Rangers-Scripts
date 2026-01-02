@@ -168,3 +168,29 @@ cython_debug/
 .DS_Store
 **/.DS_Store
 .DS_Store
+
+# Environment Manager logs and configs
+venv_manager.log
+conda_manager.log
+*_config.json
+
+# Saved jokes/data files (user-specific)
+.chuck_norris_saved_jokes.txt
+
+# macOS
+.AppleDouble
+.LSOverride
+._*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Credentials (NEVER commit these)
+*credentials*.json
+*secrets*.json
+*.pem
+*.key
